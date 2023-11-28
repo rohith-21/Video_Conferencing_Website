@@ -1,5 +1,5 @@
 {
-  "name": "airconf",
+  "name": "Video_Conf",
   "version": "1.0.0",
   "description": "A real-time video conference application",
   "main": "server.js",
@@ -11,8 +11,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
-  "author": "Faiz Bachoo Shah",
-  "license": "MIT",
+
   "dependencies": {
     "concurrently": "^6.3.0",
     "express": "^4.17.1",
